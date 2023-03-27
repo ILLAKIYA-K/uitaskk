@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.hero{
+    max-width: 130rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hero-img{
+    max-width: 100%;
+}
+
+.healthy{
+    font-size: 5.2rem;
+    margin-bottom: 40px;
+    line-height: 1.05;
+    letter-spacing: -0.5px;
+}
+
+.smart{
+    margin-bottom: 4rem;
+    font-size: 2rem;
+}
+
+.btn{
+    
+    text-decoration: none;
+    cursor:pointer;
+    background-color: orange;
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    background-color: black;
+}
